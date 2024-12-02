@@ -1,5 +1,6 @@
 {
   "name": "home",
+  "homepage": "https://github.com/rohit-raj7/Portfoli_recct",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^11.12.0",
